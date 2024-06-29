@@ -2,17 +2,48 @@ body{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: poppins;
 }
-#top a{
+/* header sec */
+header a{
  float: right;
- margin: 10px 10px;
+ margin:  10px;
  color: rgb(48, 48, 48);
  text-decoration: none;
+ 
 
 }
-#top a:first-child{
+header a:first-child{
     margin-right: 100px;
 }
-#top a:hover{
+header a:hover{
     text-decoration: underline;
+}
+/* container section */
+#container{
+  /* display: inline-flex; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300PX;
+}
+#con-img img{
+    margin-top: 200px;
+}
+#in{
+    /* padding: 10px; */
+    /* padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 40px; */
+    margin-top: 10px;
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(135, 134, 134);
+    font-size: 20px;
+    
+    
 }
