@@ -30,6 +30,7 @@ header a:hover{
 }
 #con-img img{
     margin-top: 200px;
+    margin-left: 120px;
 }
 #in{
     /* padding: 10px; */
@@ -39,11 +40,30 @@ header a:hover{
     margin-top: 10px;
     width: 70%;
     padding: 20px;
-    border-radius: 20px;
-    border: none;
+    border-radius: 50px;
+    /* border: none; */
     outline: none;
-    border: 1px solid rgb(135, 134, 134);
+    border: 1px solid rgb(191, 189, 189);
     font-size: 20px;
-    
-    
+
+}
+#in:hover{
+    box-shadow: 2px 2px 5px rgb(212, 212, 212);
+}
+#con-btn button{
+padding: 18px;
+margin-top: 20px;
+border-radius: 5px;
+border: none;
+outline: none;
+background-color: rgb(244, 243, 243);
+
+
+}
+#con-btn button:first-child{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#con-btn button:hover{
+    box-shadow: 2px 2px 5px rgb(212, 212, 212);
 }
