@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#top a{
+ float: right;
+ margin: 10px 10px;
+ color: rgb(48, 48, 48);
+ text-decoration: none;
+
+}
+#top a:first-child{
+    margin-right: 100px;
+}
+#top a:hover{
+    text-decoration: underline;
+}
